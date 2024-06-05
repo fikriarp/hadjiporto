@@ -179,10 +179,10 @@
   
     .home-img-profile {
       height: fit-content;
-      width: 210px;
+      width: 80dvw;
       position: absolute;
       top: 5rem;
-      left: 5rem;
+      left: 2rem;
     }
   
     .about {
