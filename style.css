@@ -384,6 +384,10 @@ a:active {
     margin-bottom: 1.5rem;
   }
 
+  .about-text{
+    width: 320px;
+  }
+
   .work ul li {
     font-size: 0.6rem;
   }
