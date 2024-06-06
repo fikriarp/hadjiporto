@@ -239,6 +239,15 @@ a:active {
   width: 300px;
 }
 
+.video-wrapper{
+  padding-top: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: none;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
 .logo-wrapper {
   align-items: center;
   display: flex;
@@ -388,6 +397,12 @@ a:active {
     width: 320px;
   }
 
+  .work ul{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+  }
+
   .work ul li {
     font-size: 0.6rem;
   }
@@ -405,7 +420,7 @@ a:active {
   }
 
   .logo-wrapper > div > img {
-    width: 50px;
+    width: 30px;
     filter: grayscale();
     margin-bottom: 2rem;
     margin-top: 2rem;
