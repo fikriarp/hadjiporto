@@ -8,6 +8,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+}
+
 header {
   width: 100dvw;
   position: fixed;
@@ -16,11 +21,17 @@ header {
   color: wheat;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
 }
 
-header p {
+header a {
   cursor: pointer;
+  height: fit-content;
+}
+
+header a p{
+  color: yellow;
 }
 
 nav {
@@ -239,13 +250,34 @@ a:active {
   width: 300px;
 }
 
+.container-video{
+  display: flex;
+  flex-direction: column;
+}
+
+.seemore-wrapper{
+  display: none;
+  justify-content: center;
+}
+
+.seemore{
+  cursor: pointer;
+color: #000;
+height: 25px;
+}
+
+.seemore:hover{
+  border-bottom: 3px solid yellow;
+  color: #00000077;
+}
+
 .video-wrapper{
   padding-top: 5rem;
   justify-content: center;
   flex-wrap: wrap;
   display: none;
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .logo-wrapper {
@@ -316,6 +348,10 @@ a:active {
   background-color: white;
 }
 
+.social-icon:active{
+  border: none;
+}
+
 .contact > p {
   margin-top: 1rem;
   font-size: 0.8rem;
@@ -374,11 +410,24 @@ a:active {
     padding-top: 5rem;
     display: block;
     width: 100dvw;
+    padding-left: 1rem;
+  }
+
+  .wrapper-about{
+    height: fit-content;
+  }
+
+  .wrapper-about div p {
+    height: 25px;
+  }
+
+  .yellow-line{
+    width: 108px;
+    bottom: 25px;
   }
 
   .about aside {
     flex-direction: row;
-    width: 100dvw;
     margin: 0;
   }
 
@@ -395,6 +444,10 @@ a:active {
 
   .about-text{
     width: 320px;
+  }
+
+  .wrapper-h1-work{
+    height:50px;
   }
 
   .work ul{

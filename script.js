@@ -5,7 +5,8 @@ const worker = document.querySelectorAll(".wrapper-work > div > img"),
   logoCepat = document.querySelector(".logo-cepat"),
   logoVideo = document.querySelector(".logo-video"),
   videoWrapper = document.querySelector(".video-wrapper"),
-  wrapperWork = document.querySelector(".wrapper-work");
+  wrapperWork = document.querySelector(".wrapper-work"),
+  seeMore = document.querySelector(".seemore-wrapper");
 const pret = document.getElementById("pretroom"),
   beyond = document.getElementById("beyond"),
   pruaini = document.getElementById("pruaini"),
@@ -31,6 +32,7 @@ pret.addEventListener("click", function () {
   logoVideo.style.filter = "grayscale()";
   wrapperWork.style.display = "flex";
   videoWrapper.style.display ="none";
+  seeMore.style.display ="none";
 });
 
 beyond.addEventListener("click", function () {
@@ -49,6 +51,7 @@ beyond.addEventListener("click", function () {
   logoVideo.style.filter = "grayscale()";
   wrapperWork.style.display = "flex";
   videoWrapper.style.display ="none";
+  seeMore.style.display ="none";
 });
 
 pruaini.addEventListener("click", function () {
@@ -67,6 +70,7 @@ pruaini.addEventListener("click", function () {
   logoVideo.style.filter = "grayscale()";
   wrapperWork.style.display = "flex";
   videoWrapper.style.display ="none";
+  seeMore.style.display ="none";
 });
 
 
@@ -86,6 +90,7 @@ podcast.addEventListener("click", function () {
   logoVideo.style.filter = "grayscale()";
   wrapperWork.style.display = "flex";
   videoWrapper.style.display ="none";
+  seeMore.style.display ="none";
 });
 
 content.addEventListener("click", function () {
@@ -104,4 +109,5 @@ content.addEventListener("click", function () {
   logoVideo.style.filter = "none";
   wrapperWork.style.display = "none";
   videoWrapper.style.display ="flex";
+  seeMore.style.display ="flex";
 });
